@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.header {
+	width: 100%;
+    height: 40px;
+    background-color: firebrick;
+}
+
+nav {
+    color: white;
+    margin-left: 300px;
+    font-size: x-large; 
+}
+
+A:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: white;
+   } 
+A:visited { text-decoration: none; 
+	color: white;
+	} 
+A:active { text-decoration: none; 
+	color: white;
+	}
+A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: red; /* Цвет ссылки */
+   } 
+
+.footer {
+	width: 100%;
+    height: 40px;
+    background-color: firebrick;
+    margin-top: 30px;
+}
+
+.content{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.buy{
+	margin-left: 100px;
+	background-color: lawnGreen;
+}
+
+.even {
+	background-color: lightgray;
+}
+
+.odd {
+	background-color: white;
+}
+
+input, td, button {
+	background-color: inherit;
+}
+
+.good {
+	width: 310px;
+    height: 360px;
+    background-color: yellow;
+    display:inline-block;
+    justify-content: center;
+} 
+
+html {
+    font-family: 'Comfortaa';
+}
